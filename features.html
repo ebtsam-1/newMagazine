@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features | EXPLORE </title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/psd.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!--Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Sofia&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="nav-bar">
+        <div class="container">
+            <div class="logo">
+                <h2>EXPLORE</h2>
+            </div>
+            <i class="fas fa-list-ul"></i>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="index.html #lastNews">Last News</a></li>
+                    <li><a href="index.html #newsPaper">NewsPaper</a></li>
+                    <li><a href="features.html">features</a></li>
+                    <li><a href="index.html #contact">Contact Us</a></li>
+                    <li><a href="index.html #contact">location</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Awesome features</h2>
+            <div class="box">
+                <div class="box-1">
+                    <img src="images/pexels-harper-sunday-2857583.jpg" alt="#">
+                </div>
+                <div class="accordion_area box-2">
+                    <div class="accordion_box child">
+                        <h3 class="acc_trigger">Honsty & Speed <i class="fa fa-plus" aria-hidden="true"></i></h3>
+                        <div class="acc_container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                               </p>
+                        </div>
+                    </div>
+                    <div class="accordion_box child">
+                        <h3 class="acc_trigger">Exclusive News <i class="fa fa-plus" aria-hidden="true"></i></h3>
+                        <div class="acc_container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                               </p>
+                        </div>
+                    </div>
+                    <div class="accordion_box child">
+                        <h3 class="acc_trigger">Most interesting Topics<i class="fa fa-plus" aria-hidden="true"></i>
+                        </h3>
+                        <div class="acc_container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                               </p>
+                        </div>
+                    </div>
+                    <div class="accordion_box child">
+
+                        <h3 class="acc_trigger">Best News handling<i class="fa fa-plus" aria-hidden="true"></i></h3>
+                        <div class="acc_container">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                               </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <h2>EXPLORE</h2>
+            <ul class="active">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <p>@ 2022 | EXPLOR | All the Photos Here are from PEXELS.com</p>
+        </div>
+    </footer>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.accordion_box:first').addClass('active')
+            $('.accordion_box:first').children('.acc_trigger').children('i').addClass('fa-minus')
+            $('.accordion_box:first').children('.acc_trigger').addClass('selected').next('.acc_container').show()
+
+            $('.acc_trigger').click(function (event) {
+                if ($(this).hasClass('selected')) {
+                    $(this).removeClass('selected');
+                    $(this).children('i').removeClass('fa-minus');
+                    $(this).next().slideUp();
+                    $(this).parent().removeClass('active');
+                } else {
+                    $('.acc_trigger').removeClass('selected');
+                    $(this).addClass('selected');
+                    $('.acc_trigger').children('i').removeClass('fa-minus');
+                    $(this).children('i').addClass('fa-minus');
+                    $('.acc_trigger').next().slideUp();
+                    $(this).next().slideDown();
+                    $('.accordion_box').removeClass('active');
+                    $(this).parent().addClass('active');
+
+
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
